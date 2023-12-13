@@ -1,0 +1,111 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: linear-gradient(#808080, #C0C0C0);
+}
+
+body {
+    display: flex;
+	font-family: 'Montserrat', sans-serif;
+	background: linear-gradient(#808080, #C0C0C0);
+	
+	color: #1d1d1d;
+}
+
+
+.contenedor {
+	
+    background: linear-gradient(#808080, #C0C0C0);
+	width: 90%;
+	max-width: 1000px;
+	margin: 30px auto 100px auto;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 40px;
+}
+
+.contenedor .pelicula {
+	text-align: center;
+}
+
+.contenedor .pelicula .titulo {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.contenedor .pelicula .poster {
+	width: 100%;
+	margin-bottom: 10px;
+	border-radius: 15px;
+    
+}
+
+.contenedor .pelicula .poster:hover{
+    transform:scale(1.1);
+    transition: 1s;
+}
+
+.paginacion {
+    
+	position: fixed;
+	bottom: 0;
+	background: #150e26;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	padding: 10px;
+}
+
+.paginacion button {
+	cursor: pointer;
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 50px;
+	width: 200px;
+	background: #241744;
+	color: #fff;
+	border-radius: 100px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	transition: .3s ease all;
+}
+
+.paginacion button:hover {
+	background: #137c32;
+}
+
+header ul li{
+	
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    height: 70px; 
+    background-color: #150e26;
+    padding: 10px;
+	align-items: center;
+	
+
+}
+header button:hover{
+	background: #137c32;
+}
+
+
+
+
+
+.Logo {
+    display: flex;
+
+}
+
+.Logo img{
+    height: 50px;
+
+}
+

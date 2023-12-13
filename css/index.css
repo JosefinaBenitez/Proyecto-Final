@@ -1,0 +1,25 @@
+body{
+    background: linear-gradient(#808080, #C0C0C0);
+}
+.text-danger{
+    color: black;
+}
+
+.miclaseboton{
+    width: 400px;
+    height: 40px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.centrar{
+    text-align: center;
+}
+
+
+
+
+
+
+
+   
